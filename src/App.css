@@ -1,0 +1,53 @@
+
+.row{
+       --bs-gutter-x: 0;
+}
+.box {
+    width: 350px;
+    height: 360px;
+    margin-top: 10px;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .draggable-text {
+    cursor: grab;
+    position: absolute;
+    font-size: 18px;
+    padding: 5px;
+  }
+  .UndoRedoContainer{
+  background-color: azure;
+  height: 60px;
+  }
+  #fontSelect{
+    background-color: rgb(210, 210, 210);
+    border: none;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 12px;
+    outline: none;
+    width: 150px;
+    height: 26px;
+   
+  }
+  .fontSize{
+    background-color: rgb(210, 210, 210);
+    border: none;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 12px;
+    outline: none;
+    width: 90px;
+    margin-left: 5px;
+  }
+
+  .fa-solid{
+    cursor: pointer;
+  }
+
+
+.undoBtn:hover,.redoBtn:hover{
+  color: gray;
+}
